@@ -1,0 +1,179 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #171717, #201627);
+    color: white; 
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+.logo {
+    font-size: 22px;
+    color: white;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links li a {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-links li a:active {
+    color: white;
+}
+
+.about {
+    height: 300px;   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+    
+.circular-image {
+    border-radius: 50%;
+    float: left;
+    height: 250px;
+}
+
+.profile {
+    color: white
+}
+
+.accounts {
+    display: flex;
+    gap: 20px;
+}
+
+.accounts img {
+    width: 40px;
+    height: 40px;
+}
+
+#skills {
+    background-color: #1f1824;
+    padding-bottom: 100px;
+}
+
+.skills-heading {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.skills-content {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 80px; 
+}
+
+
+.skill-item {
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    background-color: #171717d4;
+    padding: 20px;
+    width: 130px;
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.skills-content p {
+    align-items: center;
+    font-size: 20px;
+}
+
+#projects {
+    padding-bottom: 100px;
+}
+
+.projects-heading {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.project-item {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    width: 250px;
+}
+
+.project-item img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.project-item p {
+    align-items: center;
+    font-size: 20px;
+}
+
+#contact {
+    background-color: #1f1824;
+    padding-bottom: 100px;
+}
+
+.contact-heading {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    gap: 20px;
+}
+
+.contact-item img {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-item a {
+    color: white;
+}
